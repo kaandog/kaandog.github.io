@@ -1,9 +1,11 @@
-<div class = "h3"> {{page.title}} </div>
-<div class="col project-container"> 
-  {{ page.date | date: "%Y %b" }} {{ page.content }}
-
-{% for image in  page.images %}
-<img src="{{ page.image }}" class="img-rounded" width="304" height="236">
-{% endif %}
-</div>
-
+<tr>
+  <td class = "h3 project-title"> {{page.title}} </td>
+  <td class="project-container"> 
+    <div class="project-date"> {{ page.date | date: "%Y %b" }} </div>
+    <div class="project-content"> {{ page.content }}
+    {% for image in  page.images %}
+    <img src="{{ image }}" class="img-rounded" width="304" height="236">
+    {% endfor %}
+    </div>
+  </td>
+</tr>

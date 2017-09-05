@@ -4,9 +4,13 @@ title: Kaan Dogrusoz
 ---
 
 <div class="containter">
-	{% for post in site.posts %}
-	<div class = "row">
-		{{post}}
-	</div>
-	{% endfor %}
+  <div class = "table-responsive">
+    <table class="table table-borderless">
+      <tbody>
+        {% for post in site.posts %}
+        {{post}}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 </div>
