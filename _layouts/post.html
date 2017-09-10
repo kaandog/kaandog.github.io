@@ -3,9 +3,6 @@
   <td class="project-container"> 
     <div class="project-date"> {{ page.date | date: "%Y %b" }} </div>
     <div class="project-content"> {{ page.content }}
-    {% for image in  page.images %}
-    <img src="{{ image }}" class="img-rounded" width="304" height="236">
-    {% endfor %}
     </div>
   </td>
 </tr>
