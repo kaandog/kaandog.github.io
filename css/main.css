@@ -37,3 +37,10 @@ body {
 .table-borderless tr:last-child {
   border-bottom: none;
 }
+
+.socialIcon-icon {
+}
+
+.socialIcon-title {
+  font-size: 100%;
+}

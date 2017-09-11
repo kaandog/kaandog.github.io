@@ -1,0 +1,16 @@
+---
+layout: default
+title: Kaan Dogrusoz
+---
+<div class="col-4">
+	{% for icon in site.socialIcons %}
+	<div>
+		<a class="socialIcon-link {{ icon.class }}" href="{{ icon.url }}">
+			<span class="socialIcon-icon"> {% include {{ icon.class | prepend: 'socialIcons/' | append: '.svg' }} %} </span>
+			<span class="socialIcon-title">{{ icon.title }}</span>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+<div class="col-8">
+</div>
