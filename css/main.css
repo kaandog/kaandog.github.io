@@ -38,9 +38,21 @@ body {
   border-bottom: none;
 }
 
-.socialIcon-icon {
+.socialIcon {
+  display: inline-flex;
+  align-self: center;
+  position: relative;
+}
+
+.socialIcon svg {
+  height: 2em;
+  width: 2em;
+  margin-right: 0.3em;
 }
 
 .socialIcon-title {
-  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.5em;
 }
