@@ -2,8 +2,13 @@ body {
 	margin: 60px auto;
 }
 
+.nav {
+  margin: 0.2em;
+}
+
 .nav-link {
 	color:black;
+  border-bottom: 1px solid #dddddd;
 }
 
 .nav-link:hover {
@@ -39,20 +44,25 @@ body {
 }
 
 .socialIcon {
-  display: inline-flex;
-  align-self: center;
-  position: relative;
+  display: block;
+  margin-bottom: 0.3em;
 }
 
 .socialIcon svg {
   height: 2em;
   width: 2em;
   margin-right: 0.3em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .socialIcon-title {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  font-size: 1.5em;
+  font-size: 1.0em;
+  width: 100%;
+}
+
+.socialIcon-thumbnail {
+  width: 7em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }

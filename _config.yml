@@ -14,14 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kaan Dogrusoz
-email: kaan.dogrusoz@gmail.com
+email: kaan.dogrusoz{at}gmail{dot}com
 socialIcons:
- - title: Email
-   url: kaan.dogrusoz@gmail.com
-   class: email
- - title: GitHub
-   url: https://github.com/kaandog
-   class: github
+ - title: Instagram
+   url: https://www.instagram.com/kaandogrusoz
+   class: instagram
  - title: LinkedIn
    url: https://www.linkedin.com/in/kaan-dogrusoz-073b748a/
    class: linkedin

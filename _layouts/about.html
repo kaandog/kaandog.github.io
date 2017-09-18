@@ -4,13 +4,12 @@ title: Kaan Dogrusoz
 ---
 <div class="row">
 <div class="col-2">
+  <img src="assets/img/face_pic.jpg" class="img-fluid socialIcon-thumbnail" alt="Responsive image">
   {% for icon in site.socialIcons %}
-  <div>
     <a class="socialIcon {{ icon.class }}" href="{{ icon.url }}">
       {% include {{ icon.class | prepend: 'socialIcons/' | append: '.svg' }} %}
-      <span class="socialIcon-title">{{ icon.title }}</span>
+      {{ icon.title }}
     </a>
-  </div>
   {% endfor %}
 </div>
 <div class="col-10">
