@@ -21,6 +21,9 @@ body {
 .project-date {
   color: gray;
 }
+.project-container {
+  word-wrap: break-word;
+}
 
 .table-borderless th,
 .table-borderless td {
