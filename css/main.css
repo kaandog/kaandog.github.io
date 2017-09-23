@@ -22,28 +22,11 @@ body {
   color: gray;
 }
 .project-container {
-  word-wrap: break-word;
+  padding-bottom: 20px;
 }
 
-.table-borderless th,
-.table-borderless td {
-  border:none
-}
-
-.table-borderless tr {
-  border-top: 1px solid #dddddd;
-}
-
-.table-borderless {
-  border-collapse: collapse;
-}
-
-.table-borderless tr:first-child {
-  border-top: none;
-}
-
-.table-borderless tr:last-child {
-  border-bottom: none;
+.top-buffer {
+  margin-top:20px;
 }
 
 .socialIcon {

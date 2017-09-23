@@ -3,10 +3,6 @@ layout: default
 title: Kaan Dogrusoz
 ---
 
-    <table class="table table-borderless">
-      <tbody>
-        {% for post in site.posts %}
-        {{post}}
-        {% endfor %}
-      </tbody>
-    </table>
+{% for post in site.posts %}
+{{post}}
+{% endfor %}
