@@ -3,8 +3,8 @@ layout: default
 title: Kaan Dogrusoz
 ---
 <div class="row">
-<div class="col-2">
-  <img src="assets/img/face_pic.jpg" class="img-fluid socialIcon-thumbnail" alt="Responsive image">
+<div class="col-12 col-md-3 col-lg-2">
+  <img src="assets/img/face_pic.jpg" class="img-fluid socialIcon-thumbnail" alt="Kaan">
   {% for icon in site.socialIcons %}
     <a class="socialIcon {{ icon.class }}" href="{{ icon.url }}">
       {% include {{ icon.class | prepend: 'socialIcons/' | append: '.svg' }} %}
@@ -12,7 +12,7 @@ title: Kaan Dogrusoz
     </a>
   {% endfor %}
 </div>
-<div class="col-10">
+<div class="col">
   {{ content }}
 </div>
 </div>
