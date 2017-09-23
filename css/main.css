@@ -15,9 +15,17 @@ body {
 	color: gray;
 }
 
-.project-title {
-  text-align: right;
+@media (min-width: 767px) {
+  .project-title {
+    text-align: left;
+  }
 }
+@media (min-width: 767px) {
+  .project-title {
+    text-align: right;
+  }
+}
+
 .project-date {
   color: gray;
 }
